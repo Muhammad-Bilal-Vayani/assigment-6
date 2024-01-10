@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1,h2,h3,h4,h5,h6,p,a,li{
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    background: #EEF6FF;
+    padding: 35px 0;
+    position: sticky;
+    width: 100%;
+    z-index: 9;
+    top: 0;
+}
+
+.navMenu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navMenu li {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navMenu li a {
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.homeSec01 .row, .homeSec01 .container {
+    align-items: center;
+    height: 100%;
+}
+
+.rightMenu ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.rightMenu ul li {
+    display: block;
+}
+.homeSec01 {
+    padding: 0px 0 0;
+    background-size: cover !IMPORTANT;
+    background-repeat: no-repeat !important;
+    height: 90vh;
+}
+
+.homeSec01 h4 {
+    color: #ff5151;
+    font-size: 80px;
+    font-family: "Marck Script" !IMPORTANT;
+    margin: 0 0 30px;
+}
+
+.homeSec01 h2 {
+    font-size: 70px;
+    font-weight: bold;
+    color: #373737;
+}
+
+.homeSec01 p {
+    font-size: 22px;
+    margin: 0px 0 44px;
+    font-family: "Poppins", sans-serif;
+    color: #010225;
+    letter-spacing: 0.2px;
+}
+
+.homeSec01 a {
+    background-color: transparent;
+    border: 1px solid #ff5151;
+    color: #ff5151;
+    padding: 14px 30px 14px;
+}
+
+.homeSec01 .col-md-7 {
+    padding-left: 100px;
+}
+
+.homeSec01 .row {
+    align-items: center;
+}
+
+.homeSec01 .row img {
+    width: 100%;
+}
+.premiumSec {
+    padding: 120px 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-repeat: no-repeat !IMPORTANT;
+    background-size: 100% 100% !IMPORTANT;
+    background-position: center center !important;
+}
+
+.premiumSec .col-md-10 {
+    text-align: right;
+}
+
+.premiumSec h2 {
+    color: #7c5e48;
+    font-size: 48px;
+    line-height: 55px;
+    margin: 0 0 20px;
+}
+
+.premiumSec a {
+    color: #7c5e48;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    line-height: 1;
+    font-family: "Poppins", sans-serif;
+    border-bottom: 1px solid #a29083;
+    padding-bottom: 2px;
+}
+.bestSell p {
+    width: 70%;
+    margin: 20px auto 70px;
+}
+
+.bestSellMain {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 30px;
+    row-gap: 60px;
+}
+
+.bestSellMain img {
+    width: 100%;
+    margin: 0 0 12px;
+}
+
+.bestSellMain h6 {
+    color: #737373;
+    font-size: 14px;
+}
+
+.bestSellMain h4 {
+    color: #373737;
+    font-size: 16px;
+    margin: 0px 0 5px;
+}
+
+.bottomDiv {
+    display: flex;
+    justify-content: space-between;
+    margin: 13px 0 0;
+}
+
+.bottomDiv span {
+    color: #373737;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.bottomDiv del {
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-left: 9px;
+}
+
+.bottomDiv a {
+    color: #ff5151;
+    margin-right: 0;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.discountSec {
+    padding: 160px 0 100px;
+}
+
+.discountSec img {
+    width: 100%;
+}
+.discount-img {
+    margin: 0px 0 0 70px;
+    position: relative;
+}
+.discount-img:before {
+    background-color: #fff6f6;
+    content: "";
+    height: calc(100% - 30px);
+    left: -70px;
+    position: absolute;
+    top: -40px;
+    width: 100%;
+    z-index: -1;
+}
+.discount-content {
+    margin-left: 30px;
+}
+.discount-content h2 {
+    font-size: 36px;
+    color: #383838;
+    font-weight: bold;
+    margin: 21px 0 34px;
+    line-height: 46px;
+    letter-spacing: 0.5px;
+}
+
+.discount-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #737373;
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+}
+.default-btn a.btn-style-outline {
+    background-color: transparent;
+    border: 1px solid #ff5151;
+}
+.default-btn a.btn-size-md {
+    padding: 14px 30px 14px;
+}
+.default-btn a.btn-color-theme {
+    color: #ff5151;
+}
+.btn-hover a {
+    position: relative;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+.default-btn a {
+    font-weight: 500;
+    text-transform: uppercase;
+    display: inline-block;
+    line-height: 1;
+    z-index: 1;
+}
+.btn-hover a::before, .btn-hover a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    z-index: -1;
+}
+
+.footer {
+    background: #F8F8F8;
+    padding: 80px 0 0;
+    margin: 100px 0 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer li {
+    display: block;
+}
+
+.copyRight {
+    background: #EBEBEB;
+    padding: 13px 0;
+    margin: 70px 0 0;
+}
+
+.firsCol p {margin: 20px 0;}
+
+.firsCol ul {
+    display: flex;
+    justify-content: space-between;
+    width: 79%;
+}
+
+.firsCol ul a {
+    font-size: 19px;
+    color: #9d9d9d;
+}
+
+.footer .col02 ul li a {
+    color: #737373;
+    font-size: 16px;
+    line-height: 36px;
+}
+
+.footer h3 {
+    font-size: 19px;
+    color: #373737;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+
+.footer form input {
+    font-size: 14px;
+    color: #737373;
+    letter-spacing: 0.02px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #e3e3e3;
+    padding: 2px 60px 2px 0;
+    outline: none;
+}
+
+.footer form {
+    margin: 30px 0 0;
+}
+
+.footer button {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+    .footer button svg {
+    font-size: 14px;
+    color: #737373;
+}
